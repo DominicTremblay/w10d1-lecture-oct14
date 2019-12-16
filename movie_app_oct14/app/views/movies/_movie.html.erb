@@ -1,0 +1,22 @@
+<li class="media">
+
+  <%= link_to image_tag(movie.image_url), movie %>
+
+    <div class="media-body">
+      <h5 class="mt-0 mb-1"><%= link_to movie.title, movie %></h5>
+
+      <ul>
+      
+        <li>Director: <%= movie.director %></li>
+        <li>Runtime: <%= movie.runtime_in_minutes %> minutes</li>
+        <li>Release Date: <%= movie.release_date %></li>
+        <li>Description: <%= movie.description %></li>
+      
+      
+      </ul>
+
+    <%= debug movie_path(movie) %>
+
+    </div>
+</li>
+  

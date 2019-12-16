@@ -1,0 +1,24 @@
+// Place all the styles related to the movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.media {
+  margin: 2em;
+
+  img {
+    max-width: 80px;
+    margin-right: 1em;
+  }
+
+  .media-body {
+    li {
+      list-style: none;
+    }
+  }
+}
+
+div.media.show {
+  img {
+    max-width: 200px;
+  }
+}
